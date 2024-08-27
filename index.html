@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container_principal">
+        <header class="cabecalho_pagina">
+            <img src="./assets/alura.png" alt="logo">
+        </header>
+
+    <div class="container_input">
+        <div class="input">
+            <textarea id="input-texto" placeholder="Digite seu texto"></textarea>
+        </div>
+
+    <div id="output">
+        <img src="./assets/imagem.png" alt="imagem da saida">
+        <h2>Nenhuma mensagem <br> encontrada</h2>
+        <span>Digite um texto que você deseja <br> criptografar ou descriptografar.</span>
+    </div>
+    </div>
+    
+    <div class="alerta">    
+        <img src="./assets/alerta.png" width="16px" height="16px" alt="alerta do texto">
+        <p>Apenas letras minúsculas e sem acento.</p>
+    </div>
+
+    <div class="botoes">
+        <div class="container-btn">
+            <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+        </div>
+    </div>
+    </main>
+
+    <footer class="rodape">
+        <h3>Desenvolvido por Giovanni Nascimento</h3>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/giovanni-nascimento-morais-b72377289/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/gnmors"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
