@@ -20,7 +20,7 @@ function descriptografar(){
 
     var resultDescritpo = texto.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
 
-    document.getElementById('output').innerHTML = '<textarea readonly id="input-texto">' + resultDescritpo + '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>'
+    document.getElementById('output').innerHTML = '<textarea class="texto_saida" readonly id="input-texto">' + resultDescritpo + '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>'
 }
 
 function copiar(){

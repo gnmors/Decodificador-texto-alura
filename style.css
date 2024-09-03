@@ -44,16 +44,28 @@ body {
     height: 330px;
 }
 
+.texto_entrada {
+    background: var(--fundo)!important;
+}
+
+.texto_saida {
+    background-color: var(--branco)!important;
+}
+
+textarea {
+    resize: none;
+}
+
 #input-texto {
-    width: 345px;
+    /* width: 345px; */
     height: 330px;
     font-size: 32px;
     font-weight: 400;
     color: var(--azul-principal);
-    background-color: var(--fundo);
     border: 0;
     outline: 0;
     padding: 20px;
+    border-radius: 32px;
 }
 
 .alerta {
